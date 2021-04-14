@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class InventoryScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	private static InventoryScript instance;
+	public static InventoryScript Instance => instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public bool backpack = false;
+
+	private void Awake()
+	{
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else
+		{
+			Destroy(this);
+		}
+	}
+
+	public void AddItem(Item item)
+	{
+		inventory.Add(item);
+		FindObjectOfType<FillInventory>().AddItem(item);
+	}
+
+	public List<Item> inventory = new List<Item>();
 }
