@@ -155,7 +155,7 @@ RectTransform:
   - {fileID: 930561058}
   - {fileID: 1310169897}
   m_Father: {fileID: 1245424975}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -231,7 +231,7 @@ RectTransform:
   m_LocalScale: {x: 0.45, y: 0.45, z: 0.46457}
   m_Children: []
   m_Father: {fileID: 1245424975}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -364,7 +364,7 @@ RectTransform:
   m_LocalScale: {x: 0.5593374, y: 0.5593374, z: 1.242972}
   m_Children: []
   m_Father: {fileID: 1245424975}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -598,7 +598,7 @@ RectTransform:
   m_LocalScale: {x: 0.40049997, y: 0.40049997, z: 0.89}
   m_Children: []
   m_Father: {fileID: 1245424975}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1141,11 +1141,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194712002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -400, y: -225, z: 0}
-  m_LocalScale: {x: 1.54, y: 1.54, z: 1.54}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.927, y: 0.927, z: 1}
   m_Children: []
-  m_Father: {fileID: 1245424975}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1194712004
 SpriteRenderer:
@@ -1290,7 +1290,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1194712003}
   - {fileID: 167574101}
   - {fileID: 479328408}
   - {fileID: 847459786}
@@ -1470,7 +1469,7 @@ RectTransform:
   m_Children:
   - {fileID: 1115538986}
   m_Father: {fileID: 1245424975}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
