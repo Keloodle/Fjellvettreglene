@@ -354,8 +354,11 @@
 "Assets/Scripts/ItemImage.cs"
 "Assets/Scripts/sct_BlindveiScene.cs"
 "Assets/Scripts/sct_DobbelStiSceneShift.cs"
+"Assets/Scripts/sct_GameManager.cs"
+"Assets/Scripts/sct_TimeCheck.cs"
 "Assets/Scripts/sct_WinScenes.cs"
 "Assets/Scripts/SwitchScene.cs"
+"Assets/sct_buttonManager.cs"
 -langversion:8.0
 
 /deterministic
