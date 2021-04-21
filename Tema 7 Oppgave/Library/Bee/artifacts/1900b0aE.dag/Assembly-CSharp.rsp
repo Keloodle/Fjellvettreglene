@@ -345,7 +345,12 @@
 "Assets/FillInventory.cs"
 "Assets/ItemImage.cs"
 "Assets/Scripts/InventoryScript.cs"
+<<<<<<< HEAD
 "Assets/Scripts/ItemGameObject.cs"
+=======
+"Assets/Scripts/sct_BlindveiScene.cs"
+"Assets/Scripts/sct_DobbelStiSceneShift.cs"
+>>>>>>> 8f567b983e8fafdadc87ba63830dcf4adb8b4438
 "Assets/Scripts/SwitchScene.cs"
 -langversion:8.0
 
