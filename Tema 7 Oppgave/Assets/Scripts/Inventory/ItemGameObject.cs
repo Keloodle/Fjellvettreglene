@@ -18,6 +18,7 @@ public class ItemGameObject : MonoBehaviour
 		else if (InventoryScript.Instance.inventory.Count < 5 && InventoryScript.Instance.backpack)
 		{
 			InventoryScript.Instance.AddItem(itemStats);
+			this.gameObject.SetActive(false);
 		}
 
 	}

@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+Tema 7 Oppgave//[Ll]ibrary/
+Tema 7 Oppgave//[Tt]emp/
+Tema 7 Oppgave//[Oo]bj/
+Tema 7 Oppgave//[Bb]uild/
+Tema 7 Oppgave//[Bb]uilds/
+Tema 7 Oppgave//[Ll]ogs/
+Tema 7 Oppgave//[Mm]emoryCaptures/
 Tema 7 Oppgave/[Tt]emp/
 
 # Never ignore Asset meta data
