@@ -10,7 +10,10 @@ public class SwitchScene : MonoBehaviour
 
     private void Start()
     {
-        panel.SetActive(false);
+		if (panel != null)
+		{
+            panel.SetActive(false);
+		}
     }
     public void StartGame()
     {
@@ -32,5 +35,10 @@ public class SwitchScene : MonoBehaviour
     {
         panel.SetActive(false);
         button.SetActive(false);
+    }
+
+    public void NextScene()
+	{
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
