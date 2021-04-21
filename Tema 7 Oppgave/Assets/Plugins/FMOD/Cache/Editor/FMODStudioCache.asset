@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FMod/Fjellvettreglene/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637546272204780425
+  lastModified: 637538362786771770
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -36,7 +36,7 @@ MonoBehaviour:
   Path: Assets/FMod/Fjellvettreglene/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637546272204770512
+  lastModified: 637538362786766827
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -82,7 +82,7 @@ MonoBehaviour:
   - {fileID: -8738194737745367946}
   StringsBanks:
   - {fileID: -8879068470525676346}
-  stringsBankWriteTime: 637546272204780425
+  stringsBankWriteTime: 637538362786771770
   cacheVersion: 6
 --- !u!114 &8407844238486423975
 MonoBehaviour:
