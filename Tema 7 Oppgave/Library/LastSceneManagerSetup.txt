@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/1_Hytta.unity
+- path: Assets/Scenes/3_TreVei.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

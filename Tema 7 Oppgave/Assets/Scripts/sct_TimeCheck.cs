@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class sct_TimeCheck : MonoBehaviour
 {
-
+    [SerializeField]
     public enum TimeStates{Morning, Day, Night}
     TimeStates timeState;
   
@@ -22,6 +22,7 @@ public class sct_TimeCheck : MonoBehaviour
                 timeState = TimeStates.Night;
                 break;
             default:
+                timeState = TimeStates.Night;
                 break;
         }
         switch (timeState)
@@ -36,7 +37,6 @@ public class sct_TimeCheck : MonoBehaviour
                 transform.GetChild(2).gameObject.SetActive(true);
                 break;
             default:
-                transform.GetChild(2).gameObject.SetActive(true);
                 break;
         }
     }

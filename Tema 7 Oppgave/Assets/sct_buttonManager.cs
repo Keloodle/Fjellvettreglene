@@ -13,5 +13,8 @@ public class sct_buttonManager : MonoBehaviour
     {
         //SceneManager.LoadScene();
     }
-
+    public void GoBack()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+    }
 }

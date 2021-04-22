@@ -352,12 +352,12 @@
 "Assets/Scripts/Inventory/InventoryScript.cs"
 "Assets/Scripts/Inventory/ItemGameObject.cs"
 "Assets/Scripts/ItemImage.cs"
-"Assets/Scripts/sct_BlindveiScene.cs"
-"Assets/Scripts/sct_DobbelStiSceneShift.cs"
+"Assets/Scripts/SceneScripts/sct_BlindveiScene.cs"
+"Assets/Scripts/SceneScripts/sct_DobbelStiSceneShift.cs"
+"Assets/Scripts/SceneScripts/sct_WinScenes.cs"
+"Assets/Scripts/SceneScripts/SwitchScene.cs"
 "Assets/Scripts/sct_GameManager.cs"
 "Assets/Scripts/sct_TimeCheck.cs"
-"Assets/Scripts/sct_WinScenes.cs"
-"Assets/Scripts/SwitchScene.cs"
 "Assets/sct_buttonManager.cs"
 -langversion:8.0
 
